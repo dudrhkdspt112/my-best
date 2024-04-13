@@ -1,0 +1,138 @@
+@charset "utf-8";
+.header{
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+ }
+ .head-line {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ } 
+/* 로고 */
+.logo {
+  display: inline-block;
+  height: inherit;
+  line-height: 80px;
+}
+.logo a {}
+.logo a img {
+  width: 216px;
+}
+/* 로고 */
+/* 메뉴 */
+.gnb {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+}
+.gnb li:nth-child(5) {
+  padding-right: 0;
+}
+/* 서브메뉴 */
+.sub_menu {
+  padding: 0 40px;
+  line-height: 80px;
+  position: relative;
+}
+.lnb {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.lnb li {
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+}
+.lnb li a {
+  font-size: 16px;
+  transition: 0.3s;
+  opacity: 0;
+}
+.lnb li a:hover {
+  color: red;
+}
+.gnb .sub_menu:hover .lnb {
+  opacity: 1;
+  pointer-events: auto; 
+}
+.gnb .sub_menu:hover .lnb li a {
+  display: block;
+  opacity: 1;
+  background-color: #fff;
+}
+/* 푸터 */
+.footer {
+  font-family: 'Pretendard', sans-serif;
+  padding: 80px 0;
+  color: #555;
+}
+.fmenu li {
+  display: inline-block;
+}
+.fmenu li a {
+  color:#555;
+}
+.fmenu .fmenu_txt a{
+  font-weight: bold;
+}
+.fmenu li:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height:12px;
+  background-color: gray;
+  margin:0 10px;
+}
+.fmenu li:first-child:after {
+  margin-right: 5px;
+}
+.fmenu li:last-child:after {
+  display: none;
+}
+.finfo {
+  margin: 20px 0 10px 0;
+}
+.finfo2 {
+  margin-bottom: 20px;
+}
+.finfo p,
+.finfo2 p {
+  display: inline-block;
+}
+.finfo p:after,
+.finfo2 p:after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  background-color: gray;
+  margin:0 10px;
+}
+.finfo p:last-child::after,
+.finfo2 p:last-child::after {
+  display: none;
+}
+.copy_sns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sns a {
+  margin-right: 25px;
+}
+.sns a i{
+  font-size: 30px;
+  color:gray;
+}
+/* 푸터 */
+
