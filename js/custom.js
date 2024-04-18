@@ -1,6 +1,6 @@
-// section3
-var swiper = new Swiper(".containerswiper", {
-  spaceBetween: 30,
+// section4
+var swiper1 = new Swiper(".containerswiper", {
+  // spaceBetween: 30,
   centeredSlides: true,
   loop : true, 
   autoplay: {
@@ -16,22 +16,22 @@ var swiper = new Swiper(".containerswiper", {
     prevEl: ".swiper-button-prev", 
   },
   breakpoints: {
-    320: {
+    392: {
       slidesPerView: 1,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
     768: {
       slidesPerView: 1,
-      spaceBetween: 40,
+      // spaceBetween: 40,
     },
     1024: {
       slidesPerView: 1,
-      spaceBetween: 30,
+      // spaceBetween: 30,
     },
   },
 });
-// section3
 // section4
+// section5
 var swiper2 = new Swiper(".practice-sp", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -46,17 +46,17 @@ var swiper2 = new Swiper(".practice-sp", {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
     768: {
       slidesPerView: 1,
-      spaceBetween: 40,
+      // spaceBetween: 40,
     },
     1024: {
       slidesPerView: 1,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
   },
 
 });
-//section4
+//section5
