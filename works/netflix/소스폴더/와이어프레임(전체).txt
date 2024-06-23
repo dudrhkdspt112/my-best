@@ -1,9 +1,0 @@
-.container
-	header
-	section.welcome
-	section.enjoy
-	section.download
-	section.watch
-	section.create
-	section.faq
-	footer
