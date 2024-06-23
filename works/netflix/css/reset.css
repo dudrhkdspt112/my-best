@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*  XEICON CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+  color: #fff;
+  margin:0;
+  line-height: 1.6em;
+  font-size: 26px;
+}
+body.active{
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+section{
+    border-bottom: 10px solid #333;
+    position: relative;
+  }

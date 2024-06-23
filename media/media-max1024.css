@@ -1,0 +1,392 @@
+/* 태블릿 max=1200 */
+@media all and (max-width:1200px) {
+    /* header */
+    .header-inner {
+        width: 90%;
+    }
+    #header #menu_area .gnb li {
+        text-align: center;
+        margin: 2.18rem 0;
+    }
+    #header #menu_area .gnb li a {
+        font-size: 3.43rem;
+        font-weight: 500;
+        color: #6e6b6b;
+    }
+    #header #menu_area .gnb li a:hover {
+        color: var(--color--black1);
+        transition: color 0.4s;
+    }
+    /* header end */
+    /* section1 */
+    .intromain-inner h2 {
+        font-size: 3.2rem;
+    }
+    .intromain-inner p {
+        font-size: 1.25rem;
+        width:100%;
+    }
+    .intromain-character {
+        left: -1.3%;
+    }
+    .intromain-character img {
+        width: 25%;
+    }
+    .character-cat_footprint {
+        bottom: 1%;
+        left: 92%;
+    }
+    .character-cat_footprint img {
+        width: 100%;
+    }
+    .main-mouse_txt {
+        top: 100%;
+    }
+    /* section1 end */
+    /* section2 */
+    .about-inner {
+        width: 90%;
+    }
+    .atitle_txt-line {
+        font-size: 2.81rem;
+    }
+    .profile-picture img {
+        width: 70%;
+    }
+    .profile-txt h3 {
+        font-size: 1.87rem;
+    }
+    .profile-txt p {
+        font-size: 1.2rem;
+    }
+    .education h3,
+    .certificate h3 {
+    font-size: 1.87rem;
+}
+    .education_txt p,
+    .certificate_txt p {
+        font-size: 1.2rem;
+    }
+    /* section2 end */
+    /* section3 */
+    .myskill-inner {
+        width:90%;
+    }
+    .skill-contents {
+        height: calc( 100vh - 7em );
+    }
+    .stitle_txt-line {
+        font-size: 2.81rem;
+    }
+    .skill-content span {
+        font-size: 1.25rem;
+    }
+    .skill-content div {
+        margin-left: 5rem;
+        font-size: 1.06rem;
+    }
+    /* section3 end */
+    /* section4 */
+    .arrow_direction .swiper-button-next,
+    .arrow_direction .swiper-button-prev {
+        display: none;
+    }
+    .mywork-inner {
+        width: 90%;   
+    }
+    .mywork_title {
+        top: 13%;
+    }
+    .wtitle_txt-line {
+        font-size: 2.81rem;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide {
+        grid-gap: 4.37rem;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_right-img .right-img img{
+        width: 100%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-title {
+        font-size: 2rem;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 14%;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice-inner {
+        width: 90%;
+    }
+    .ptitle_txt-line {
+        font-size: 2.81rem;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 14%;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact-inner {
+        width: 90%;
+    }
+    .contact_title {
+        top: 15%;
+    }
+    .ctitle_txt-line {
+        font-size: 2.81rem;
+    }
+    .left_txt-line h3 {
+        font-size: 1.87rem;
+    }
+    .left_txt-line p {
+        font-size: 1rem;
+    }
+    .e-mail_line h3 {
+        font-size: 1.87rem;
+    }    
+    .e-mail_line p {
+        font-size: 1.5rem;
+    }
+
+    /* section6 end */
+}
+/* 태블릿 max=1100 */
+@media all and (max-width:1100px) {
+    /* section2 */
+    .profile-picture img {
+        width: 68%;
+    }
+    .profile-txt h3 {
+        font-size: 1.75rem;
+    }
+    .profile-txt p {
+        font-size: 1.15rem;
+    }
+    .education h3,
+    .certificate h3 {
+    font-size: 1.75rem;
+}
+    .education_txt p,
+    .certificate_txt p {
+        font-size: 1.15rem;
+    }
+    /* section2 end */
+    /* section4 */
+    .mywork_title {
+        top: 20%;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 20%;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice_title {
+        top: 21%;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 20%;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact_title {
+        top: 20%;
+    }
+    .left_txt-line h3 {
+        font-size: 1.6rem;
+    }
+    /* section6 end */
+    /* footer */
+    .finfo-txt {
+        font-size: 0.95rem;
+    }
+    .fcony {
+        font-size: 0.8rem;
+    }
+    /* footer end */
+}
+/* 태블릿 max=1024 */
+@media all and (max-width:1024px) {
+    /* section1 */
+    .intromain-character {
+        left: -1.3%;
+    }
+    .character-cat_footprint {
+        bottom: 1%;
+        left: 88%;
+    }
+    .character-cat_footprint img {
+        width: 90%;
+    }
+    .main-mouse {
+        bottom: 4%;
+        transform: translate(-50%,-4%);
+    }
+    .main-mouse_txt {
+        top:99.5%;
+        font-size: 0.75rem;
+        transform: translate(-50%,-99.5%);
+    }
+    /* section1 end */
+    /* section2 */
+    .about-right{
+        margin-bottom: 10rem;
+    }
+    .profile-picture img {
+        height: 80%;
+    }.profile-txt h3 {
+        font-size: 1.6rem;
+        width:100%;    
+    }
+    .profile-txt p {
+        line-height: 1.5em;
+    }
+    .education h3,
+    .certificate h3 {
+        font-size: 1.6rem;
+    }
+    .education_txt p,
+    .certificate_txt p {
+        line-height: 1.6em;
+    }
+    /* section2 end */
+    /* section3 */
+    .skill-content span {
+        font-size: 1.18rem;
+    }
+    .skill-content div {
+        font-size: 0.93rem;
+    }
+    /* section3 end */
+    /* section4 */
+    .arrow_direction {
+        display: none;
+    }
+    .mywork_title {
+        top: 27%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left-txt_tag-list .tag-list {
+        font-size: 0.75rem;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom:25%;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice_title {
+        top: 29%;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 25%;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact_title {
+        top: 27%;
+    }
+    .left_txt-line h3 {
+        font-size: 1.5rem;
+    }
+    /* section6 end */
+    /* footer */
+}
+    /* 태블릿 max=820 */
+@media all and (max-width:820px) {
+    /* section1 */
+    .intromain-character img {
+        width: 23.5%;
+    }
+    .character-cat_footprint img {
+        width: 95%;
+    }
+    /* section1 end */
+    /* section2 */
+    .about-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+    }
+    .about-right {
+        margin-bottom: 0;
+    }
+    .about_title {
+        padding: 0
+    }
+    .profile-picture img {
+        width: 55%;
+        padding: 2rem 0;
+    }
+    /* section2 end */
+    /* section3 */
+    .skill-content span {
+        font-size: 1rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+    .skill-content div {
+        font-size: 0.87rem;
+    }
+    /* section3 end */
+    /* section4 */
+    .mywork_title {
+        top: 9%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_right-img {
+        width: 100%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_right-img .right-img img {
+        width: 100%;
+        height: 90%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt {
+        width: 100%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-explanation {
+        font-size: 20px;
+        margin: 1.2rem 0;
+    }
+    .btn_more {
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .btn_more a {
+        padding: 1.19rem 4.5rem 1.3rem;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 21%;
+    }
+    /* section4 end */
+    /* section5 */
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 31%;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact_title {
+        top: 17%;
+    }
+    .left_txt-line h3 {
+        font-size: 1.5rem;
+    }
+    .left_txt-line p {
+        font-size: 1rem;
+    }
+    .e-mail_line h3 {
+        font-size: 1.5rem;
+    }    
+    .e-mail_line p {
+        font-size: 1.3rem;
+    }
+    /* section6 end */
+}

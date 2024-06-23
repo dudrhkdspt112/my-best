@@ -1,0 +1,473 @@
+/* 모바일 max=480 */
+@media all and (max-width: 480px) {
+    section {
+        height: 100vh;
+    }
+    /* header */
+    #header {
+        border-bottom: 0;
+    }
+    .header-inner {
+        height: 3.4rem;
+    }
+    .logo h1 {
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    .btn_menu {
+        width: 1.25rem;
+        height: 0.9rem;
+    }
+    #header #menu_area .gnb li a {
+        font-size: 2.5rem;
+    }
+    /* header end */
+    /* section1 */
+    .intromain-inner h2 {
+        font-size: 2rem;
+    }
+    .intromain-inner p {
+        font-size: 0.8rem;
+    }
+    .intromain-character {
+        left: 0;
+    }
+    .intromain-character img {
+        width: 18%;
+    }
+    .character-cat_footprint {
+        bottom: 5px;
+        left: 84%;
+    }
+    .character-cat_footprint img {
+        width: 60px;
+    }
+    .main-mouse {
+        bottom: 5%;
+        transform: translate(-50%,-5%);
+    }
+    .main-mouse_point {
+        width: 1.5rem;
+        height: 2rem;
+    }
+    .main-mouse_point div {
+        width: 3px;
+        height: 3px;
+    }
+    .main-mouse_txt {
+        font-size: 0.6rem;
+    }
+    /* section1 end */
+    /* section2 */
+    .atitle_txt-line {
+        font-size: 2.2rem;
+        letter-spacing: -4.5px;
+    }
+    .profile-txt h3 {
+        font-size: 1.2rem;
+    }
+    .profile-txt p {
+        font-size: 0.8rem;
+    }
+    .education h3,
+    .certificate h3 {
+        font-size: 1.2rem;
+    }
+    .education p,
+    .certificate p {
+        font-size: 0.8rem;
+    }
+    /* section2 end */
+    /* section3 */
+    .stitle_txt-line {
+        font-size: 2.2rem;
+        letter-spacing: -4.5px;
+    }
+    .skill-content span {
+        font-size: 1.2rem;
+        border: none;
+        text-align: start;
+        font-weight: 900;
+    }
+    .skill-content div {
+        font-size: 0.8rem;
+        margin-left: 3rem;
+    }
+    .skill-content div p br{
+        display: none;
+    }
+    /* section3 end */
+    /* section4 */
+    .mywork_title {
+        top: 10%;
+    }
+    .wtitle_txt-line {
+        font-size: 2.2rem;
+        letter-spacing: -4.5px;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-title {
+        font-size:  1.56rem;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-explanation {
+        font-size: 20px;
+        margin: 1.1rem 0;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left-txt_tag-list .tag-list {
+        padding: 6px 12px;
+    }
+    .btn_more {
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+    .btn_more a {
+        font-size: 0.8rem;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 27%;
+    }
+    .containerswiper .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    .containerswiper .swiper-pagination-bullet-active {
+        width: 11px;
+        height: 11px;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice_title {
+        top: 22%;
+    }
+    .ptitle_txt-line {
+        font-size: 2.2rem;
+        letter-spacing: -4.5px;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 24%;
+    }
+    .practice-sp .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    .practice-sp .swiper-pagination-bullet-active {
+        width: 11px;
+        height: 11px;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact_title {
+        top: 16%;
+    }
+    .ctitle_txt-line {
+        font-size: 2.2rem;
+        letter-spacing: -4.5px;
+    }
+    .left_txt-line h3 {
+        font-size: 1rem;
+        margin-bottom: 0.93rem;
+    }
+    .left_txt-line p {
+        font-size: 0.7rem;
+    }
+    .e-mail_line h3 {
+        font-size: 1.25rem;
+    }
+    .e-mail_line p {
+        font-size: 0.85rem;
+        margin-top: 0.9rem;
+    }
+    .kakao-opentalk_line {
+        margin-top: 15px;
+    }
+    .opentalk {
+        width: 140px;
+        height: 140px;
+    }
+    .ot-line a {
+        width: 100%;
+    }
+    .ot-line img {
+        width: 95px;
+    }
+    .ot-line p {
+        font-size: 0.62rem;
+        margin-top: 0.31rem;
+    }
+    /* section6 end */
+     /* footer */
+    .finfo-txt {
+        font-size: 0.8rem;
+    }
+    .fcony {
+        font-size: 0.7rem;
+        margin-top: 10px;
+    }
+    /* footer */
+  }
+  @media all and (max-width: 480px) {
+
+  }
+  /* 모바일 max=392 */
+@media all and (max-width: 392px) {
+    /* header */
+    .btn_menu {
+        width: 1.19rem;
+        height: 0.75rem;
+    }
+    #header #menu_area .gnb li a {
+        font-size: 1.87rem;
+    }
+    /* header end */
+    /* section1 */
+    .intromain-inner h2 {
+        font-size: 1.87rem;
+    }
+    .intromain-inner p {
+        font-size: 0.65rem;
+    }
+    .intromain-character img {
+        width: 18%;
+    }
+    .character-cat_footprint {
+        left: 84.5%;
+        bottom: 1%
+    }
+    .character-cat_footprint img {
+        width: 55px;
+    }
+    .main-mouse_point {
+        width: 1.3rem;
+        height:1.7rem;
+    }
+    .main-mouse_txt {
+        font-size: 0.55rem;
+    }
+    /* section1 end */
+    /* section2 */
+    .about_title {
+        padding: 1.2rem 0;
+    }
+    .atitle_txt-line {
+        font-size: 1.7rem;
+        letter-spacing: -3.2px;
+    }
+    .profile-picture img {
+        width: 70%;
+        padding: 0 0 1rem 0;
+    }
+    .profile-txt h3 {
+        font-size: 1.1rem;
+    }
+    .profile-txt p {
+        font-size: 0.8rem;
+    }
+    .education h3,
+    .certificate h3 {
+        font-size: 1.1rem;
+    }
+    .education p,
+    .certificate p {
+        font-size: 0.8rem;
+    }
+    /* section2 end */
+    /* section3 */
+    .myskill_title {
+        padding: 1rem 0;
+    }
+    .stitle_txt-line {
+        font-size: 1.7rem;
+        letter-spacing: -3.2px;
+    }
+    .skill-content span {
+        font-size: 1rem;
+        border: none;
+        text-align: start;
+        font-weight: 900;
+    }
+    .skill-content div {
+        font-size: 0.7rem;
+        margin-left: 3rem;
+    }
+    /* section3 end */
+    /* section4 */
+    .mywork_title {
+        top: 9%;
+    }
+    .wtitle_txt-line {
+        font-size: 1.7rem;
+        letter-spacing: -3.2px;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-title {
+        font-size:  1.3em;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-explanation {
+        font-size: 1.1rem;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left-txt_tag-list .tag-list {
+        font-size: 0.65rem;
+    }
+    .btn_more {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .btn_more a {
+        font-size: 0.75rem;
+        padding:0.95rem 4.5rem 1rem;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 31%;
+    }
+    .containerswiper .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+    }
+    .containerswiper .swiper-pagination-bullet-active {
+        width: 9px;
+        height: 9px;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice_title {
+        top: 24%;
+    }
+    .ptitle_txt-line {
+        font-size: 1.7rem;
+        letter-spacing: -3.2px;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 25%;
+    }
+    .practice-sp .swiper-pagination-bullet {
+        width: 8px;
+        height: 8px;
+    }
+    .practice-sp .swiper-pagination-bullet-active {
+        width: 9px;
+        height: 9px;
+    }
+    /* section5 end */
+     /* section6 */
+    .contact_title {
+        top: 17%;
+    }
+    .ctitle_txt-line {
+        font-size: 1.7rem;
+        letter-spacing: -3.2px;
+    }
+    .contact-linebox {
+        row-gap: 25px;
+    }
+    .left_txt-line h3 {
+        font-size: 1.1rem;
+    }
+    .left_txt-line p {
+        font-size: 0.7rem; 
+    }
+    .e-mail_line h3 {
+        font-size: 1.1rem;
+    }
+    .e-mail_line p {
+        font-size: 0.7rem;
+    }
+    .kakao-opentalk_line {
+        margin-top: 0;
+    }
+    /* section6 end */
+    /* footer */
+    .finfo-txt {
+        font-size: 0.7rem;
+    }
+    .fcony {
+        font-size: 0.6rem;
+    }
+    /* footer end */
+}
+ /* 모바일 max=375 */
+@media all and (max-width: 375px) {
+    /* section1 */
+    .intromain-character {
+        left: -1%;
+    }
+    .main-mouse {
+        bottom: 5%;
+        transform: translate(-50%,-5%);
+    }
+    .main-mouse_point {
+        width: 1.3rem;
+        height: 1.8rem;
+    }
+    .main-mouse_point div {
+        width: 2.5px;
+        height: 2.5px;
+    }
+    .main-mouse_txt {
+        font-size: 0.6rem;
+    }
+    /* section1 end */
+    /* section2 */
+    .profile-picture img {
+        width: 48%;
+    }
+    .profile-txt h3 {
+        font-size: 1rem;
+    }
+    .profile-txt p {
+        font-size: 0.7rem;
+    }
+    .education h3,
+    .certificate h3 {
+        font-size: 1rem;
+    }
+    .education p,
+    .certificate p {
+        font-size: 0.7rem;
+    }
+    /* section2 end */
+    /* section3 */
+    .skill-content div {
+        font-size: 0.65rem;
+    }
+    /* section3 end */
+    /* section4 */
+    .mywork-inner {
+        padding: 7.5rem 0;
+    }
+    .mywork_title {
+        top: 9%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left-txt_tag-list .tag-list {
+        font-size: 0.65rem;
+        padding: 6px 10px;
+    }
+    .btn_more {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .btn_more a {
+        font-size: 0.75rem;
+        padding:0.95rem 4.5rem 1rem;
+    }
+    .containerswiper .swiper-pagination_box .swiper-pagination {
+        bottom: 0;
+    }
+    /* section4 end */
+    /* section5 */
+    .practice_title {
+        top: 18%;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        bottom: 20%;
+    }
+    /* section5 end */
+    /* section6 */
+    .contact_title {
+        top: 8%;
+    }
+    .left_txt-line h3 {
+        font-size: 1rem;
+    }
+    .e-mail_line h3 {
+        font-size: 1rem;
+    }
+    /* section6 end */
+}

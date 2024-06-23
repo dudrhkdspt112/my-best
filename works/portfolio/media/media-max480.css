@@ -1,0 +1,339 @@
+/* 모바일 max=480 */
+@media all and (max-width: 480px) {
+    /* header */
+    #header {
+        border-bottom: 0;
+    }
+    .header-inner {
+        height: 55px;
+    }
+    .logo h1 {
+        font-size: 19px;
+        font-weight: 800;
+    }
+    .btn_menu {
+        width: 21px;
+        height: 15px;
+    }
+    #header #menu_area .gnb li a {
+        font-size: 40px;
+    }
+    /* header end */
+    /* section1 */
+    .intromain-inner h2 {
+        font-size: 35px;
+    }
+    .intromain-inner p {
+        font-size: 0.9rem;
+    }
+    .intromain-character {
+        left: 2%;
+    }
+    .intromain-character img {
+        width: 19%;
+    }
+    .character-cat_footprint {
+        bottom: 10px;
+        left: 82%;
+    }
+    .character-cat_footprint img {
+        width: 70px;
+    }
+    .main-mouse_point {
+        width: 25px;
+        height: 32px;
+    }
+    .main-mouse_point div {
+        width: 4px;
+        height: 4px;
+    }
+    .main-mouse_txt {
+        font-size: 10px;
+    }
+    /* section1 end */
+    /* section2 */
+    .about-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .about-right h2 {
+        font-size: 35px;
+        margin: 0 0 25px 0;
+        
+    } 
+    .profile-picture img {
+        width: 60%;
+        height: 83%;
+    }
+    .profile-txt_line {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+    .profile-txt h3 {
+        margin: 25px 0 10px 0;
+        font-size: 22px;
+    }
+    .profile-txt p {
+        font-size: 15px;
+    }
+    .education h3,
+    .certificate h3 {
+        font-size: 22px;
+    }
+    .education p,
+    .certificate p {
+        font-size: 15px;
+    }
+  
+    /* section2 end */
+    /* section3 */
+    .wtitle_txt-line {
+        font-size: 35px;
+        top: 22%;
+        letter-spacing: -4.5px;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt {
+        width: 100%;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left_txt-explanation {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .swiper.containerswiper .swiper-wrapper .swiper-slide .mywork_left_txt .left-txt_tag-list .tag-list {
+        font-size: 11px;
+        font-weight: 500;
+        padding: 5px 10px;
+        margin-right: 3px;
+    }
+    .btn_more a {
+        font-size: 12px;
+        padding: 14px 4.5rem 16px;
+    }
+    .swiper-pagination {
+        margin-bottom: 220px;
+    }
+    /* section3 end */
+    /* section4 */
+    .ptitle_txt-line {
+        top: 21%;
+        font-size: 35px;
+        letter-spacing: -4.1px;
+    } 
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        margin-bottom: 260px;
+    }
+    /* section4 end */
+    /* section5 */
+    .ctitle_txt-line {
+        top: 16%;
+        font-size: 35px;
+        letter-spacing: -4.3px;
+    }
+    .contact-linebox {
+        row-gap: 50px;
+    }
+    .right-communication {
+        flex-direction: column;
+    }
+    .left_txt-line h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .left_txt-line p {
+        font-size: 15px;
+    }
+    .e-mail_line h3 {
+        font-size: 23px;
+    }
+    .e-mail_line p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .kakao-opentalk_line {
+        margin-top: 15px;
+    }
+    .opentalk {
+        width: 140px;
+        height: 140px;
+    }
+    .ot-line a {
+        width: 100%;
+    }
+    .ot-line img {
+        width: 95px;
+    }
+    .ot-line p {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    /* section5 end */
+     /* footer */
+     .finfo-txt {
+        font-size: 16px;
+    }
+    .fcony {
+        font-size: 12px;
+    }
+    /* footer */
+  }
+  /* 모바일 max=392 */
+@media all and (max-width: 392px) {
+    /* header */
+    .btn_menu {
+        width: 19px;
+        height: 13px;
+    }
+    #header #menu_area .gnb li a {
+        font-size: 30px;
+    }
+    /* header end */
+    /* section1 */
+    .intromain-inner h2 {
+        font-size: 33px;
+    }
+    .intromain-inner p {
+        font-size: 0.7rem;
+    }
+    .intromain-character {
+        left: 1%;
+    }
+    .intromain-character img {
+        width: 19%;
+    }
+    .character-cat_footprint {
+        left: 83%;
+    }
+    .character-cat_footprint img {
+        width: 60px;
+    }
+    /* section1 end */
+    /* section2 */
+    .about-inner {
+        text-align: center;
+    }
+    .about-right h2 {
+        font-size: 33px;
+    }
+    .profile-picture img {
+        width: 70%;
+    }
+    .profile-txt h3 {
+        font-size: 19px;
+    }
+    .profile-txt p {
+        font-size: 15px;
+    }
+    .education,
+    .certificate {
+        display: none;
+    }
+    /* section2 end */
+    /* section3 */
+    .wtitle_txt-line {
+        font-size: 33px;
+        top: 21%;
+        letter-spacing: -3.5px;
+        width: 100%;
+    }
+    .swiper-pagination {
+        margin-bottom: 125px;
+    }
+    /* section3 end */
+    /* section4 */
+    .ptitle_txt-line {
+        font-size: 33px;
+        letter-spacing: -3.5px;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        margin-bottom: 165px;
+    }
+    /* section4 end */
+     /* section5 */
+    .ctitle_txt-line {
+        font-size: 33px;
+        letter-spacing: -4px;
+    }
+    .contact-linebox {
+        row-gap: 25px;
+    }
+    .left_txt-line h3 {
+        font-size: 20px;
+    }
+    .left_txt-line p {
+        font-size: 13px;
+    }
+    .e-mail_line h3 {
+        font-size: 19px;
+    }
+    .e-mail_line p {
+        font-size: 17px;
+    }
+    .kakao-opentalk_line {
+        margin-top: 0;
+    }
+    .opentalk {
+        width: 140px;
+        height: 140px;
+    }
+    .ot-line a {
+        width: 100%;
+    }
+    .ot-line img {
+        width: 95px;
+    }
+    .ot-line p {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    /* section5 end */
+}
+ /* 모바일 max=375 */
+@media all and (max-width: 375px) {
+    /* section2 */
+    .about-right h2 {
+        font-size: 30px;
+    }
+    .profile-picture img {
+        width: 60%;
+    }
+    /* section2 end */
+    /* section3 */
+    .wtitle_txt-line {
+        font-size: 31px;
+        top: 16%;
+    }
+    .swiper-pagination {
+        margin-bottom: 60px;
+    }
+    /* section3 end */
+    /* section4 */
+    .ptitle_txt-line {
+        font-size: 31px;
+        top: 17%;
+    }
+    .swiper.practice-sp .swiper-pagination_box .swiper-pagination {
+        margin-bottom: 110px;
+    }
+    /* section4 end */
+    /* section5 */
+    .ctitle_txt-line {
+        font-size: 31px;
+        top: 13%;
+    }
+    .e-mail_line {
+        display: none;
+    }
+    .kakao-opentalk_line {
+        margin-top: 20px;
+    }
+    /* section5 end */
+}

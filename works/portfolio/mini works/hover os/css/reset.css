@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* Web Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* Fontawesome */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #222;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0;
+  background-color: rgb(239, 224, 224);
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
